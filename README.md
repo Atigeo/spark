@@ -1,3 +1,14 @@
+# Xpatterns Spark
+
+Xpatterns Spark is based on Spark branch-1.6 with patches (https://github.com/apache/spark/pull/11358) for supporting HiveMetaStore delegation token.
+
+Command to build Xpatterns Spark:
+
+```
+./make-distribution.sh -Psparkr -Phadoop-2.6 -Phive -Phive-thriftserver -Pyarn
+```
+
+
 # Apache Spark
 
 Spark is a fast and general cluster computing system for Big Data. It provides
